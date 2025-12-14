@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>HV HolyVault ⭐ Sacred Favorites • Dark × Gold × Fire</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div class="hv">
+  <header class="hv__top">
+    <div class="hv__brand">
+      <div class="hv__logo">HV</div>
+      <div class="hv__titles">
+        <h1>HolyVault</h1>
+        <p>⭐ Sacred Favorites • Dark × Gold × Fire</p>
+      </div>
+    </div>
+
+    <div class="hv__controls">
+      <div class="hv__search">
+        <span class="hv__icon">🔎</span>
+        <input id="q" type="search" placeholder="חפש מאגר / תגית / מילת מפתח..." autocomplete="off" />
+      </div>
+
+      <div class="hv__row">
+        <select id="sort">
+          <option value="fav">⭐ מועדפים קודם</option>
+          <option value="az">🔤 A → Z</option>
+          <option value="za">🔤 Z → A</option>
+          <option value="tag">🏷️ לפי תגיות</option>
+        </select>
+
+        <label class="hv__toggle">
+          <input id="onlyFav" type="checkbox" />
+          <span>⭐ רק מועדפים</span>
+        </label>
+
+        <button id="reset" class="hv__btn">♻️ איפוס</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hv__tags">
+    <div class="hv__chips" id="chips"></div>
+  </section>
+
+  <main class="hv__grid" id="grid"></main>
+
+  <footer class="hv__foot">
+    <div class="hv__footline">
+      <span>⚡ AnLoMinus</span>
+      <span>•</span>
+      <span id="meta"></span>
+    </div>
+  </footer>
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
